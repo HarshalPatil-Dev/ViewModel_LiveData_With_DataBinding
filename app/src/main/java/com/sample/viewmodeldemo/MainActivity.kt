@@ -18,6 +18,6 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
         binding.lifecycleOwner = this
         binding.myViewModel = viewModel
-        
+        //Nothing changes
     }
 }
